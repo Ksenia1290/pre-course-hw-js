@@ -1,3 +1,3 @@
 let str = "zzzzyzz"; 
-let a = (str === y)? ' нашел' : 'заблудился';
+let a = (str)? ' нашел' : 'заблудился';
 console.log(str.includes('y'));    
