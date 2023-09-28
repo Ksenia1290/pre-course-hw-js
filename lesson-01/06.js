@@ -1,3 +1,4 @@
 let str = "zzzzyzz"; 
-let a = (str)? ' нашел' : 'заблудился';
-console.log(str.includes('y'));    
+let substring="y";
+ let a = (substring===0) ? ' нашел' : 'заблудился';
+console.log(str.includes(substring,0));    
