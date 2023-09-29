@@ -1,6 +1,12 @@
-let x = 5;
-x += 3;
-x *= 2;
-x -= 4;
-x /= 3;
-alert (x);
+switch (true) {
+    case rule.length < 25:
+      console.log('"Все таки нет правил без исключения"');
+      break;
+    case rule.length > 25:
+      console.log('У меня 100 пудов все получится');
+      break;
+      case rule.length == 25:
+      console.log('У меня 100 пудов все получится');
+
+      break;
+  }
