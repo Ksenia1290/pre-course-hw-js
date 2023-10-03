@@ -6,11 +6,8 @@ let passportWithAddress = {
         city: "LA"
     }
 };
+console.log(passportWithAddress.address.city);
 
+passportWithAddress.address.city = "Bobryisk";
 
-const clonedSinK = structuredClone(passportWithAddress);
-
-clonedSinK.city = "Bobryisk";
-
-console.log(passportWithAddress);
-console.log(clonedSinK);
+console.log(passportWithAddress.address.city);
