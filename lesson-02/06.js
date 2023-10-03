@@ -11,5 +11,6 @@ let passportWithAddress = {
 const clonedSinK = structuredClone(passportWithAddress);
 
 clonedSinK.city = "Bobryisk";
-console.log(clonedSinK);
+
 console.log(passportWithAddress);
+console.log(clonedSinK);
