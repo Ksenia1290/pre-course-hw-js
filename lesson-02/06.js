@@ -6,8 +6,10 @@ let passportWithAddress = {
         city: "LA"
     }
 };
-const deep = structuredClone(passportWithAddress);
-console.log(passportWithAddress[1] === deep[1]);
+console.log(passportWithAddress);
 
-deep.city = "Bobryisk";
-console.log(deep);
+passportWithAddress.circular = passportWithAddress;
+const clonedSink = structuredClone(passportWithAddress);
+
+passportWithAddress.city = "Bobryisk";
+console.log(passportWithAddress );
