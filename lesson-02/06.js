@@ -8,7 +8,7 @@ let passportWithAddress = {
 };
 console.log(passportWithAddress);
 
-const copied = structuredClone(passportWithAddress)
+const clonedSinK = structuredClone(passportWithAddress);
 
 passportWithAddress.city = "Bobryisk";
 console.log(passportWithAddress );
