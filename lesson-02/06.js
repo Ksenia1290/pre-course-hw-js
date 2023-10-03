@@ -6,3 +6,8 @@ let passportWithAddress = {
         city: "LA"
     }
 };
+const deep = structuredClone(passportWithAddress);
+console.log(passportWithAddress[1] === deep[1]);
+
+passportWithAddress.city = "Bobryisk";
+console.log(passportWithAddress);
