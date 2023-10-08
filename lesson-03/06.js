@@ -31,4 +31,5 @@ const users3 = [
     },
 ];
 users3.map(v => ({...v,isMarried: true }));
+users3.map(v => Object.assign(v, {isMarried: true }));
 console.log(users3);
