@@ -60,13 +60,6 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-//let arrayWithId = [];
-//for (let i = 0; i < users.length; i++) {
- // if (users[i].filter.id % 2 === 0) {
-   // arrayWithId.push(users[i]);
- // }
-//}
 
-//console.log(arrayWithId);
 const filterUser = users.filter(item => item.id%2 ===0);
 console.log(filterUser);
