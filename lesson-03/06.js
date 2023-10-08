@@ -30,5 +30,5 @@ const users3 = [
         address: '321 Hickory St'
     },
 ];
-const a = users3.map(v => ({...v,isMarried: true }));
+users3.map(v => ({...v,isMarried: true }));
 console.log(users3);
