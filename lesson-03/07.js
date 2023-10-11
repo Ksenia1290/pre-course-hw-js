@@ -4,19 +4,11 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-let a = [];
-for (line of numbers){
-  new_line =[]
-  for (num of line) {
-    if (num % 2 == 0){
-      new_line.push(num);
-    }
-  }
-  a.push(new_line);
-}
-console.log(a);
 
-
+ for (let i=0;i<numbers.length;i++){
+  numbers[i] = numbers[i].filter(function (n){return n%2 ===0})
+ }
+console.log(numbers);
 
 
 
